@@ -1,0 +1,11 @@
+{
+  "name": "jsondiff",
+  "version": "1.0.0",
+  "description": "JSON difference and patching with simple decision tree for objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cian@alphasoftware.com",
+  "license": "MIT"
+}
