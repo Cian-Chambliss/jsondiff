@@ -68,7 +68,7 @@ function jsonPatch(diff, template) {
     // Base case: primitive value
     return diff;
   }
-  if(typeof template == 'object' && !Array.isArray(template) && !Array.isArray(input) ) {
+  if(typeof template == 'object' && !Array.isArray(template) && !Array.isArray(diff) ) {
      const cases = template["$$case"]; // Match patterns provide alternates - use current template otherwise
      if( cases ) {
         for( let i = 0 ; i < cases.length ; ++i ) {
